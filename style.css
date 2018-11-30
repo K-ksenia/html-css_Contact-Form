@@ -1,0 +1,84 @@
+body {
+    background: #dedede;
+}
+
+.contact-form-modal {
+    width: 800px;
+    height: 620px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 30px 0px #bbb;
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+}
+
+.contact-form-icon {
+    background: #fff url("./letter.png") center no-repeat;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    border: 1px solid #dedede;
+}
+
+.contact-form-title {
+    font-size: 30px;
+    color: #333;
+    margin-top: 100px;
+}
+
+.contact-form-input-modal {
+    padding: 15px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input-default {
+    border-radius: 2px;
+    border: 1px solid #dedede;
+}
+
+.contact-form-input-text {
+    height: 60px;
+    font-size: 20px;
+    width: calc(50% - 90px);
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 30px;
+}
+
+.contact-form-input-textarea {
+    height: 140px;
+    width: 600px;
+    font-size: 16px;
+    padding: 30px;
+}
+
+.contact-form-button-modal {
+    text-align: right;
+    margin-right: 70px;
+}
+
+.contact-form-button {
+    height: 50px;
+    width: 100px;
+    font-size: 18px;
+    background: #fc4d5e;
+    color: #fff;
+    border-radius: 2px;
+    border: 1px solid;
+}
+
+.input-default:focus {
+    border-color: #fc4d5e;
+}
+
+.contact-form-button:focus,
+.contact-form-button:active {
+    border-color: #333;
+}
